@@ -127,6 +127,7 @@ variable "region" {
 variable "bucket_name" {
   description = "Unique name for the S3 bucket"
   type        = string
+  default = "khatrig-ms-bucket"
 }
 
 variable "environment" {
